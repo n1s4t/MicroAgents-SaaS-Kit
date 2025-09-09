@@ -12,7 +12,3 @@ pnpm dlx shadcn-ui@latest add button card input table dialog
 * Mobile‑first CSS, fluid type with clamp(), grids that scale at sm/md/lg, container queries for nested layouts. 
 
 * Touch‑friendly spacing, scrollable tables, sticky headers, and accessible components.
-
-github: <n1s4t>
-custom: ["https://www.buymeacoffee.com/n1s4t"]
-
