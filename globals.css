@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fluid type & spacing */
+:root { --step: clamp(0.9rem, 0.7rem + 0.5vw, 1.125rem); }
+html { font-size: 100%; }
+body { font-family: ui-sans-serif, system-ui; font-size: var(--step); }
+
+/* Container queries demo */
+@container card (min-width: 480px) {
+  .card-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
